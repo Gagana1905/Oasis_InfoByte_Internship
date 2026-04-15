@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    margin: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    gap: 20px;
+}
+
+.form {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    width: 30%;
+    color: white;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #00c853;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00a843;
+}
+
+.tasks {
+    flex: 1;
+    color: white;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+.task {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.task:hover {
+    transform: scale(1.02);
+}
+
+.task-info {
+    max-width: 70%;
+}
+
+.task small {
+    color: #ccc;
+}
+
+.actions button {
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+.complete {
+    background: #00c853;
+}
+
+.delete {
+    background: #d32f2f;
+}
