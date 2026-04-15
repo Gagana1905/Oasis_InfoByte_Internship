@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bhagat Singh Tribute</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #000;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://static.wixstatic.com/media/a126ea_3e0445f90377440e9d5c22bba5412873~mv2.png/v1/fill/w_528,h_528,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/a126ea_3e0445f90377440e9d5c22bba5412873~mv2.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    animation: fadeIn 2s ease;
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.hero p {
+    font-size: 22px;
+    color: #ccc;
+}
+
+/* SECTION ANIMATION */
+.section {
+    padding: 80px 10%;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 1s;
+}
+
+.section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* QUOTE */
+.quote-section {
+    background: #f5f5f5;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quote {
+    max-width: 500px;
+    font-size: 22px;
+}
+
+.quote-section img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* BIO */
+.bio {
+    text-align: center;
+}
+
+.bio h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.bio p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+    color: #ccc;
+}
+
+/* TIMELINE */
+.timeline {
+    position: relative;
+    margin-top: 50px;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: white;
+}
+
+.timeline-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.timeline-content {
+    width: 45%;
+    padding: 15px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+}
+
+.left {
+    text-align: right;
+}
+
+.right {
+    text-align: left;
+}
+ footer {
+        text-align: center;
+        padding: 20px;
+        border-top: 1px solid #444;
+        margin-top: 40px;
+        color: #aaa;
+    }
+
+/* ANIMATIONS */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Bhagat Singh</h1>
+        <p>1907 – 1931</p>
+    </div>
+</section>
+
+<!-- QUOTE -->
+<section class="section quote-section">
+    <div class="quote">
+        "They may kill me, but they cannot kill my ideas.
+        They can crush my body, but they will not crush my spirit."
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Bhagat_Singh_1929.jpg">
+</section>
+
+<!-- BIO -->
+<section class="section bio">
+    <h2>Biography</h2>
+    <p>
+        Bhagat Singh was born on 28 September 1907 in Banga, Punjab (now in Pakistan).
+        He was a revolutionary freedom fighter who played a major role in India's struggle for independence.
+        Inspired by nationalism, he joined revolutionary organizations at a young age.
+    </p>
+    <h3>Killing of John Saunders</h3>
+<p>In 1928, the British government set up the Simon Commission to report on the political situation in India. Some Indian political parties boycotted the Commission because there were no Indians in its membership,[d] and there were protests across the country. When the Commission visited Lahore on 30 October 1928, Lala Lajpat Rai led a march in protest against it. Police attempts to disperse the large crowd resulted in violence. The superintendent of police, James A. Scott, ordered the police to lathi charge (use batons against) the protesters and personally assaulted Rai, who was injured. Rai died of a heart attack on 17 November 1928. Doctors thought that his death might have been hastened by the injuries he had received. When the matter was raised in the Parliament of the United Kingdom, the British Government denied any role in Rai's death.</p>
+
+<h3>Killing of Channan Singh</h3>
+<p>After killing Saunders, the group escaped through the D.A.V. College entrance, across the road from the District Police Headquarters. Chanan Singh, a Head Constable who was chasing them, was shot dead by Chandrashekhar Azad.[33] They then fled on bicycles to pre-arranged safe houses. The police launched a massive search operation to catch them, blocking all entrances and exits to and from the city; the Criminal Investigation Department (CID) kept a watch on all young men leaving Lahore. The fugitives hid for the next two days. On 19 December 1928, Sukhdev called on Durgawati Devi, sometimes known as Durga Bhabhi, wife of another HSRA member, Bhagwati Charan Vohra, for help, which she agreed to provide. They decided to catch the train departing from Lahore to Bathinda en route to Howrah (Calcutta) early the next morning.</p>
+
+<h4>Escape from Lahore</h4>
+<p>Bhagat Singh and Rajguru, both carrying loaded revolvers, left the house early the next day. Dressed in Western attire (Bhagat Singh cut his hair, shaved his beard and wore a hat over cropped hair), and carrying Devi's sleeping child, Singh and Devi passed as a young couple, while Rajguru carried their luggage as their servant. At the station, Singh managed to conceal his identity while buying tickets, and the three boarded the train heading to Cawnpore (now Kanpur). There they boarded a train for Lucknow since the CID at Howrah railway station usually scrutinised passengers on the direct train from Lahore.[34] At Lucknow, Rajguru left separately for Benares while Singh, Devi and the infant went to Howrah, with all except Singh returning to Lahore a few days later.</p>
+
+<h4>Delhi Assembly bombing and arrest</h4>
+<p>For some time, Bhagat Singh had been exploiting the power of drama as a means to inspire the revolt against the British, purchasing a magic lantern to show slides that enlivened his talks about revolutionaries such as Ram Prasad Bismil who had died as a result of the Kakori conspiracy. In 1929, he proposed a dramatic act to the HSRA intended to gain massive publicity for their aims.[21] Influenced by Auguste Vaillant, a French anarchist who had bombed the Chamber of Deputies in Paris,[36] Singh's plan was to explode a bomb inside the Central Legislative Assembly in the Council House. The nominal intention was to protest against the Public Safety Bill, and the Trade Dispute Act, which had been rejected by the Assembly but were being enacted by the Viceroy using his special powers; the actual intention was for the perpetrators to allow themselves to be arrested so that they could use court appearances as a stage to publicise their cause.</p>
+
+<h4>Assembly case trial</h4>
+<p>According to Neeti Nair, "public criticism of this terrorist action was unequivocal."[38] Gandhi, once again, issued strong words of disapproval of their deed.[15] Nonetheless, the jailed Bhagat was reported to be elated, and referred to the subsequent legal proceedings as a "drama". Singh and Dutt eventually responded to the criticism by writing the Assembly Bomb Statement:
+
+We hold human life sacred beyond words. We are neither perpetrators of dastardly outrages ... nor are we 'lunatics' as the Tribune of Lahore and some others would have it believed ... Force when aggressively applied is 'violence' and is, therefore, morally unjustifiable, but when it is used in the furtherance of a legitimate cause, it has its moral justification.
+
+The trial began in the first week of June, following a preliminary hearing in May. On 12 June, both men were sentenced to life imprisonment for: "causing explosions of a nature likely to endanger life, unlawfully and maliciously."Dutt had been defended by Asaf Ali, while Singh defended himself.[42] Doubts have been raised about the accuracy of testimony offered at the trial. One key discrepancy concerns the automatic pistol that Singh had been carrying when he was arrested. Some witnesses said that he had fired two or three shots while the police sergeant who arrested him testified that the gun was pointed downward when he took it from him and that Singh "was playing with it."According to an article in the India Law Journal, the prosecution witnesses were coached, their accounts were incorrect, and Singh had turned over the pistol himself. Singh was given a life sentence.</p>
+</section>
+
+<!-- TIMELINE -->
+<section class="section">
+    <h2 style="text-align:center; font-size:40px;">Timeline</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <div class="timeline-content left">
+                <h3>1907</h3>
+                <p>Born in Banga, Punjab</p>
+            </div>
+            <div></div>
+        </div>
+
+        <div class="timeline-item">
+            <div></div>
+            <div class="timeline-content right">
+                <h3>1919</h3>
+                <p>Deeply affected by Jallianwala Bagh massacre</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-content left">
+                <h3>1928</h3>
+                <p>Participated in protest against Simon Commission</p>
+            </div>
+            <div></div>
+        </div>
+
+        <div class="timeline-item">
+            <div></div>
+            <div class="timeline-content right">
+                <h3>1929</h3>
+                <p>Threw bombs in Central Legislative Assembly (non-lethal protest)</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-content left">
+                <h3>1931</h3>
+                <p>Executed on 23 March at age 23</p>
+            </div>
+            <div></div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+/* SCROLL ANIMATION */
+const sections = document.querySelectorAll('.section');
+
+window.addEventListener('scroll', () => {
+    sections.forEach(sec => {
+        const top = sec.getBoundingClientRect().top;
+        if (top < window.innerHeight - 100) {
+            sec.classList.add('show');
+        }
+    });
+});
+</script>
+<footer>
+    Made with ❤ Tribute to Bhagat Singh
+</footer>
+
+</body>
+</html>
